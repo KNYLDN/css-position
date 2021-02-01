@@ -1,0 +1,79 @@
+.nav-bar {
+    max-width: 1400px;
+    width: 100%;
+    min-height: 78px;
+    
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: wrap row;
+}
+
+.nav-image {
+    position: relative;
+    left: 144px;
+}
+
+.nav-links {
+    max-width: 350px;
+    width: 100%;
+    min-height: 28px;
+
+    position: absolute;
+    left: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2F281E;
+
+}
+
+
+.nav-buttons {
+    position: absolute;
+    left: 1029px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.sign-in {
+    width: 102px;
+    height: 46px;
+
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #173A56;
+}
+.sign-up {
+    width: 102px;
+    height: 46px;
+    margin-left: 14px;
+
+    border:none;
+    background: #FF9900;
+    border-radius: 4px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
